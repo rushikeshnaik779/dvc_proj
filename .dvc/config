@@ -1,0 +1,4 @@
+[core]
+    remote = dvc-proj
+['remote "dvc-proj"']
+    url = s3://dvc-proj
