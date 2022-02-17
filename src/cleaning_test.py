@@ -8,7 +8,7 @@ def data():
     """
     let's get the data
     """
-    df = pd.read_csv("../data/raw_data/census.csv")
+    df = pd.read_csv("/Users/rushikeshnaik/Desktop/MLOPs_Projects/dvc_proj_udacity_3/dvc_proj/data/raw_data/census.csv")
     df= src.cleaning.__clean_dataset(df)
 
     return df
@@ -37,4 +37,3 @@ def test_removed_columns(data):
     assert "capital-gain" not in data.columns
     assert "capital-loss" not in data.columns
 
-    
