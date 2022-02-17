@@ -30,5 +30,3 @@ jobs:
       - name: Pull data from DVC
         run: dvc pull data -R
 
-      - name: Run pytest
-        run: pytest
